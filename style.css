@@ -40,3 +40,17 @@ footer {
 .my-float{
   margin-top: 22px;
 }
+
+.info-image {
+	width: 50%;
+}
+
+.info-text {
+	width: 50%;
+}
+
+@media only screen and (max-width: 1080px) {
+	[class*="info-"] {
+		width: 100%;
+	}
+}
